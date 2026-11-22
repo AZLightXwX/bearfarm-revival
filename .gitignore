@@ -1,0 +1,51 @@
+# ===== 运行时数据 (自动生成) =====
+server/data/
+*.db
+*.db-shm
+*.db-wal
+*.bak
+
+# ===== 日志 / 崩溃 / 诊断输出 =====
+*.log
+crash*.txt
+tombstone*.txt
+shoplog*.txt
+livelog*.txt
+responselog.txt
+nullstack.txt
+fullboot.txt
+bootfail.txt
+gametails.txt
+thead.txt
+certlog.txt
+jnierr.txt
+screen*.png
+*_ocr.txt
+*.bin
+
+# ===== 客户端包体 (版权材料不入库) =====
+*.apk
+*.apk.idsig
+apk-src/
+work/
+decomp/
+jadx-out/
+recon/
+
+# ===== 构建中间产物 =====
+javac-out/
+dex-out/
+tools/bin/
+tools/lib/
+cs-patch/bin/
+cs-patch/obj/
+
+# ===== 第三方构建工具 jre(jar, 可重新下载, 见 tools/build-client.md 链接) =====
+tools/*.jar
+
+# ===== IDE / OS =====
+.vs/
+.idea/
+__pycache__/
+*.pyc
+Thumbs.db
